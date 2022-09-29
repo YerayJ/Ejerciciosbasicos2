@@ -33,7 +33,11 @@ public class Ejercicio5 {
 		System.out.println("La nota del primer trimestre es " + notaPrimera);
 		System.out.println("La nota del segundo trimestre es " + notaSegunda);
 		System.out.println("La nota del tercer trimestre es " + notaTercera);
-		System.out.println("El resultado total del expediente academico es " + promedio);
+		//La sentencia %.2f servirá para indicar que solo queremos mostrar dos decimales.
+		System.out.printf("El resultado total del expediente academico es  %.2f",  promedio);
+		
+		//Cerramos el escaner
+		key.close();
 		
 	}
 

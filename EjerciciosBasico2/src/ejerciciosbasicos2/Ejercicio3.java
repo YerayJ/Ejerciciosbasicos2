@@ -23,7 +23,8 @@ public class Ejercicio3 {
 		// del número y si es igual a 0 el número es par.
 		res = num % 2 == 0;
 
-		System.out.println(res);
+		System.out.println("Es par el número: " + (res ? "Sí" : "No")); // Si el número es par nos dirá sí, si es impar
+																		// nos devolverá no.
 		// Cerramos el escaner
 		key.close();
 
